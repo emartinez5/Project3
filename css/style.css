@@ -1,0 +1,114 @@
+body{
+  background-color: #cfb6a2; 	
+}
+#main-navbar {
+  background-color: #815034;
+  overflow: hidden;	
+}
+#navbar-container {
+  float: left;	
+  width: 100%;
+  position: relative; 	
+}
+#main-navbar ul {
+  list-style-type: none;	
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;	
+}
+#main-navbar ul li {
+  float: left;	
+  position: relative;
+  right: 50%;
+  display: block; 	
+}
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;	
+}
+#main-navbar ul li a:hover {
+  background-color: #4a2c2a;  	
+}
+h1{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;  
+}
+h2, h3, h4{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 300;
+}
+p, li {
+  font-family: 'Arimo', sans-serif;	
+}
+#funko, #products, #cultural-sig {
+  display: block;
+  margin: 0;
+  padding: 50px;
+  border: 0;
+}
+#funko h1{
+  color: white;
+  font-size:5em;
+  border: 8px solid #815034;
+  box-sizing: border-box;
+  padding: 5px 10px 5px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1500px;
+  text-align: center;
+}
+#spiderverse, #media, #spidey  {
+  display: block;
+  margin: 10px;
+  padding: 50px;
+  border: 100px;	
+}
+#spiderverse h1{
+  background: black;
+  color: red;
+  font-size: 5em;
+  border: 8px solid red;
+  box-sizing: border-box;
+  padding: 5px 10px 5px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1500px;
+  text-align: center;
+}
+#contact h2, #educ h2, #work h2, #org h2  {
+  color: white;
+  font-size: 4em;
+  border: 8px solid #815034;
+  box-sizing: border-box;
+  padding: 5px 10px 5px 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1500px;
+  text-align: center;
+}
+iframe{
+  text-align: center;	
+  height: 300px;
+  width: 500px;
+  position: static;
+  border: 0;  
+  margin: 10px;
+  padding: 50px;
+  border: 100px;	  
+}
+.center{
+  text-align: center;
+}
+.floatleft{
+  float: left;
+}
+.floatright {
+  float: right;
+}
+.clearme {
+  clear: both;
+}
